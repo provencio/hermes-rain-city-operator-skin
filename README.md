@@ -27,7 +27,7 @@ After publishing this folder to GitHub, replace `YOUR_GITHUB_USER` in the comman
 
 ```bash
 mkdir -p ~/.hermes/skins && \
-  curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USER/hermes-rain-city-operator-skin/main/rain-city-operator.yaml \
+  curl -fsSL https://raw.githubusercontent.com/provencio/hermes-rain-city-operator-skin/main/rain-city-operator.yaml \
   -o ~/.hermes/skins/rain-city-operator.yaml && \
   hermes config set display.skin rain-city-operator
 ```
