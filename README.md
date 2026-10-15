@@ -2,6 +2,8 @@
 
 A cyberpunk noir Hermes skin inspired by a rain-soaked megacity command deck: near-black surfaces, teal hologram glow, cyan tool markers, amber warning lights, and orange city-heat errors.
 
+![Rain City Operator Hermes skin preview showing a dark teal command-deck UI with chat-style session cards and neon color swatches.](assets/rain-city-operator-preview.png)
+
 ## Preview palette
 
 | Role | Color |
