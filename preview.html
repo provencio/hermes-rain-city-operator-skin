@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rain City Operator — Hermes Skin Preview</title>
+  <style>
+    :root {
+      --bg: #05080C;
+      --surface: #0B1118;
+      --surface-2: #111A22;
+      --accent: #00E6C3;
+      --cyan: #24BFFF;
+      --green: #18F2A2;
+      --text: #EAF7FF;
+      --title: #D8FFF6;
+      --muted: #8FA6B3;
+      --border: #263644;
+      --warn: #FFB15A;
+      --error: #FF4E1F;
+      --purple: #A94DFF;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 20% 20%, rgba(0, 230, 195, .12), transparent 28rem),
+        radial-gradient(circle at 85% 15%, rgba(255, 106, 26, .10), transparent 24rem),
+        linear-gradient(135deg, #05080C 0%, #071018 48%, #05080C 100%);
+      color: var(--text);
+      font: 15px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      padding: 32px;
+    }
+    .shell {
+      max-width: 980px;
+      border: 1px solid var(--border);
+      background: rgba(11, 17, 24, .88);
+      box-shadow: 0 0 0 1px rgba(0, 230, 195, .08), 0 24px 80px rgba(0,0,0,.55);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(90deg, rgba(0,230,195,.11), rgba(36,191,255,.05), rgba(255,177,90,.07));
+    }
+    h1 { margin: 0; color: var(--title); font-size: 24px; letter-spacing: .04em; }
+    .sub { margin-top: 4px; color: var(--muted); }
+    .grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 18px; padding: 24px; }
+    .card {
+      background: rgba(5, 8, 12, .68);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+    }
+    .card h2 { margin: 0 0 12px; font-size: 13px; letter-spacing: .16em; color: var(--accent); text-transform: uppercase; }
+    .chat { display: grid; gap: 12px; }
+    .msg { border-left: 3px solid var(--accent); background: var(--surface-2); padding: 12px 14px; border-radius: 8px; }
+    .msg.tool { border-left-color: var(--cyan); }
+    .msg.warn { border-left-color: var(--warn); }
+    .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .12em; }
+    .value { color: var(--text); margin-top: 3px; }
+    .prompt { color: var(--accent); }
+    .cyan { color: var(--cyan); }
+    .green { color: var(--green); }
+    .warnc { color: var(--warn); }
+    .err { color: var(--error); }
+    .purple { color: var(--purple); }
+    .swatches { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
+    .swatch { display: flex; align-items: center; gap: 10px; color: var(--muted); }
+    .chip { width: 32px; height: 24px; border-radius: 6px; border: 1px solid rgba(255,255,255,.16); box-shadow: inset 0 0 18px rgba(255,255,255,.06); }
+    code { color: var(--green); }
+    @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } body { padding: 16px; } }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <h1>HERMES//RAINCITY</h1>
+      <div class="sub">Cyberpunk noir command deck — teal hologram glow with amber megacity heat</div>
+    </header>
+    <section class="grid">
+      <div class="card">
+        <h2>Session sample</h2>
+        <div class="chat">
+          <div class="msg">
+            <div class="label">User</div>
+            <div class="value">Build me a status check for the edge gateway.</div>
+          </div>
+          <div class="msg tool">
+            <div class="label"><span class="cyan">◉</span> tool</div>
+            <div class="value"><span class="prompt">▌</span> tracing neon… <span class="green">uplink stable</span></div>
+          </div>
+          <div class="msg warn">
+            <div class="label">Hermes</div>
+            <div class="value">Gateway probe complete. <span class="warnc">2 warnings</span>, <span class="err">0 critical</span>. Syntax keyword sample: <span class="purple">async</span>.</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Palette</h2>
+        <div class="swatches">
+          <div class="swatch"><span class="chip" style="background:#05080C"></span>#05080C</div>
+          <div class="swatch"><span class="chip" style="background:#0B1118"></span>#0B1118</div>
+          <div class="swatch"><span class="chip" style="background:#00E6C3"></span>#00E6C3</div>
+          <div class="swatch"><span class="chip" style="background:#24BFFF"></span>#24BFFF</div>
+          <div class="swatch"><span class="chip" style="background:#18F2A2"></span>#18F2A2</div>
+          <div class="swatch"><span class="chip" style="background:#FFB15A"></span>#FFB15A</div>
+          <div class="swatch"><span class="chip" style="background:#FF4E1F"></span>#FF4E1F</div>
+          <div class="swatch"><span class="chip" style="background:#A94DFF"></span>#A94DFF</div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

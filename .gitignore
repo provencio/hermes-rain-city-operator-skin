@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Editor/workspace noise
+.vscode/
+.idea/
+*.swp
+
+# Local artifacts
+*.log

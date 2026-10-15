@@ -1,0 +1,95 @@
+name: rain-city-operator
+description: Cyberpunk noir command deck — teal hologram glow with amber megacity heat
+
+colors:
+  # Night-city base surfaces
+  background: "#05080C"
+
+  # Hologram / neon signage accents
+  ui_accent: "#00E6C3"
+  banner_accent: "#00E6C3"
+  ui_tool: "#24BFFF"
+  ui_thinking: "#18F2A2"
+
+  # Text hierarchy
+  banner_title: "#D8FFF6"
+  banner_text: "#EAF7FF"
+  ui_text: "#EAF7FF"
+  ui_primary: "#D8FFF6"
+  ui_label: "#7DFFE0"
+  banner_dim: "#8FA6B3"
+  banner_border: "#263644"
+  ui_border: "#263644"
+
+  # Semantic status: matrix green, city amber, neon danger
+  ui_ok: "#18F2A2"
+  ui_warn: "#FFB15A"
+  ui_error: "#FF4E1F"
+
+  # CLI / TUI chrome
+  prompt: "#00E6C3"
+  input_rule: "#24BFFF"
+  response_border: "#00E6C3"
+  status_bar_bg: "#0B1118"
+  status_bar_text: "#D8FFF6"
+  status_bar_good: "#18F2A2"
+  status_bar_warn: "#FFB15A"
+  status_bar_bad: "#FF6A1A"
+  status_bar_critical: "#FF334E"
+  session_label: "#24BFFF"
+  session_border: "#263644"
+
+  # Menus / selection
+  completion_menu_bg: "#0B1118"
+  completion_menu_current_bg: "#111A22"
+  completion_menu_meta_bg: "#0B1118"
+  completion_menu_meta_current_bg: "#111A22"
+  selection_bg: "#123C37"
+
+  # Diffs and code syntax
+  diff_added: "#18F2A2"
+  diff_removed: "#FF4E1F"
+  diff_added_word: "#7DFFE0"
+  diff_removed_word: "#FF8A63"
+  syntax_string: "#7DFFE0"
+  syntax_number: "#24BFFF"
+  syntax_keyword: "#A94DFF"
+  syntax_comment: "#6F8794"
+
+branding:
+  agent_name: "Hermes//RainCity"
+  prompt_symbol: "▌"
+  help_header: "[ uplink ] commands"
+  welcome: "Hermes//RainCity online. Hologram link stable."
+  goodbye: "Uplink closed. Stay dry."
+
+spinner:
+  waiting_faces:
+    - "[·]"
+    - "[°]"
+    - "[•]"
+  thinking_faces:
+    - "[◌]"
+    - "[◎]"
+    - "[◉]"
+  thinking_verbs:
+    - "syncing hologram"
+    - "reading city noise"
+    - "tracing neon"
+    - "decrypting rain"
+    - "locking uplink"
+  wings:
+    - ["⟨", "⟩"]
+    - ["[", "]"]
+
+tool_prefix: "▏"
+
+tool_emojis:
+  terminal: "⌁"
+  read_file: "▦"
+  write_file: "▣"
+  web_search: "◉"
+  web_extract: "◎"
+  search_files: "▤"
+  patch: "◈"
+  vision_analyze: "◍"
